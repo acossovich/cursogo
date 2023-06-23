@@ -1,15 +1,13 @@
 package main
 
-import (
-	"fmt"
-	"github.com/acossovich/cursogo/ejercicios"
-)
+import "github.com/acossovich/cursogo/ejercicios"
 
 func main() {
 
-	integer, text := ejercicios.ArrayToInteger("99")
+	/*	integer, text := ejercicios.ArrayToInteger("99")
 
-	fmt.Println(integer)
-	fmt.Println(text)
-
+		fmt.Println(integer)
+		fmt.Println(text)
+	*/
+	ejercicios.MakeNumericTable()
 }
